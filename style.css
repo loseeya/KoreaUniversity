@@ -1,0 +1,469 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  /* font-family: 'Noto Sans KR', sans-serif; */
+  font-family: 'Pretendard-Regular';
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+#wrap {
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  height: 615px;
+  background-image: url(./asset/img/mVisual\ 3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gnb  {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.gnb ul {
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+.gnb ul li a {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+
+.logo {
+  display: block;
+  width: 1080px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.logo h1 {
+  padding-top: 90px;
+}
+
+.logo img {
+  width: 100px;
+  height: 133px;
+}
+
+.logo span {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* 컨텐츠 부분 */
+
+.section1 {
+  position: relative;
+  width: 1080px;
+  height: 830px;
+  margin: 0 auto;
+  margin-top: -150px;
+}
+
+.section1 h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  position: absolute;
+}
+
+.section1 h3::after {
+  /* position: absolute; */
+  top: 10px;
+  left: 330px;
+  display: inline-block;
+  content: "";
+  width: 765px;
+  height: 5px;
+  right: 0;
+  margin-left: 100px;
+  text-align: right;
+  background-color: #000;
+}
+
+.content1 {
+  float: left;
+  display: inline-block;
+  padding-top: 80px;
+  padding-left: 105px;
+}
+
+.content1 p {
+  line-height: 2rem;
+}
+
+.content1 strong {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content1 strong:nth-child(3) {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.content1 span {
+  font-size: 36px;
+  font-weight: 700;
+  color: #880827;
+}
+
+.content2 {
+  display: inline-block;
+  width: 210px;
+  height: 260px;
+  margin-top: 80px;
+  margin-left: 60px;
+  text-align: center;
+  background-color: #967D58;
+}
+
+.content2 h4 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.content3 {
+  float: right;
+  display: inline-block;
+  width: 210px;
+  height: 260px;
+  margin-top: 80px;
+  margin-left: 60px;
+  margin-right: 60px;
+  text-align: center;
+  background-color: #202A32;
+}
+
+.content3 h4 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.content4 {
+  float: left;
+  display: inline-block;
+  width: 210px;
+  height: 260px;
+  margin-top: 80px;
+  margin-left: 60px;
+  margin-right: 60px;
+  text-align: center;
+  background-color: #8A0727;
+}
+
+.content4 h4 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.content5 {
+  float: right;
+  display: inline-block;
+  width: 210px;
+  height: 260px;
+  margin-top: 80px;
+  margin-right: 60px;
+  text-align: center;
+  background-color: #E5E5E5;
+}
+
+.content5 h4 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #6A6A6A;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+/* 공지사항 부분 */
+
+.section2 {
+  width: 1080px;
+  height: 490px;
+  margin: 0 auto;
+}
+
+.section2 h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.section2 h3::after {
+  top: 10px;
+  left: 330px;
+  display: inline-block;
+  content: "";
+  width: 765px;
+  height: 5px;
+  right: 0;
+  margin-left: 100px;
+  text-align: right;
+  background-color: #000;
+}
+
+.section2-desc {
+  margin-left: 108px;
+}
+
+.section2-banner {
+  float: left;
+  margin-right: 75px;
+}
+
+.section2-banner img {
+  width: 420px;
+  height: 230px;
+  margin-bottom: 10px;
+}
+
+.section2-banner p {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.section2-banner span {
+  font-size: 12px;
+  color: #7c7c7c;
+}
+
+.section2-info {
+}
+
+.section2-info .active {
+  font-weight: 700;
+}
+
+.section2-info ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2-info ul li {
+  margin-right: 18px;
+  margin-bottom: 23px;
+}
+
+.section2-info ul li button {
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+/* 공지사항 서브메뉴 */
+
+.info-sub-list  {
+  padding-left: 10px;
+}
+
+.info-sub-list ul li {
+  margin-bottom: 14px;
+}
+
+.info-sub-list ul li a{
+  color: #6F6F6F;
+}
+
+
+/* 고려대학교 전공안내 */
+
+.section3 {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.section3 h3 {
+  font-size: 24px;
+  font-weight: 700;
+  
+}
+
+.section3 h3::after {
+  top: 10px;
+  left: 330px;
+  display: inline-block;
+  content: "";
+  width: 765px;
+  height: 5px;
+  right: 0;
+  margin-left: 100px;
+  text-align: right;
+  background-color: #000;
+}
+
+.section3-desc {
+  margin-left: 60px;
+}
+
+.section3-desc ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.section3-desc ul li {
+  width: 100px;
+}
+
+.section3-desc ul li a {
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+}
+
+.section3-desc ul li:nth-child(1) a {
+  display: block;
+  background: url(./asset/icon/FileView1.jpg) no-repeat center;
+  background-size: auto;
+  padding-top: 100px;
+}
+
+.section3-desc ul li:nth-child(2) a {
+  display: block;
+  background: url(./asset/icon/FileView2.jpg) no-repeat center;
+  background-size: auto;
+  padding-top: 100px;
+}
+
+.section3-desc ul li:nth-child(3) a {
+  display: block;
+  background: url(./asset/icon/FileView3.jpg) no-repeat center;
+  background-size: auto;
+  padding-top: 100px;
+}
+
+.section3-desc ul li:nth-child(4) a {
+  display: block;
+  background: url(./asset/icon/FileView4.jpg) no-repeat center;
+  background-size: auto;
+  padding-top: 100px;
+}
+
+.section3-desc ul li:nth-child(5) a {
+  display: block;
+  background: url(./asset/icon/FileView5.jpg) no-repeat center;
+  background-size: auto;
+  padding-top: 100px;
+}
+
+.section3-desc ul li:nth-child(6) a {
+  display: block;
+  background: url(./asset/icon/FileView6.jpg) no-repeat center;
+  background-size: auto;
+  padding-top: 100px;
+}
+
+.section3-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.section3-info::after {
+  display: block;
+  content: '';
+}
+
+.section3-info img {
+  width: 232px;
+  height: 115px;
+}
+
+.section3-info p {
+  margin: 10px 0;
+}
+
+/* 푸터 */
+
+footer {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+footer .line {
+  border-top: 5px solid #6A6A6A;
+}
+
+footer ul {
+  position: relative;
+  display: flex;
+}
+
+footer ul li {
+  margin: 15px 15px;
+}
+
+
+footer ul li a {
+  color: #6A6A6A;
+}
+
+footer ul li a::before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 16px;
+  margin: 0 -15px;
+  width: 1px;
+  height: 15px;
+  background-color: #6A6A6A;
+}
+
+footer ul li:first-child a::before {
+  display: none;
+}
+
+footer ul li a.on {
+  font-weight: 700;
+  color: #000;
+}
+
+footer .copyright {
+  padding-left: 15px;
+}
+
+footer .copyright p {
+  /* color: #6A6A6A; */
+  line-height: 1.5;
+}
